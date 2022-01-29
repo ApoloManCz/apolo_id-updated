@@ -6,6 +6,6 @@ You can easy change everything in script!
 https://imgur.com/a/yVNImIU
 
 # TO DO
-- Add some HTML design (Background, make it into box and much more..)
+-- Add some HTML design (Background, make it into box and much more..)--
 
 Enjoy it! <3
