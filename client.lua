@@ -1,12 +1,7 @@
-Citizen.CreateThread(function ()
-    while true do
-        Citizen.Wait(100)
-        local ped = PlayerPedId()
-        SendNUIMessage({
-            id = GetPlayerServerId(PlayerId()) or 0
-        })
-    end
+CreateThread(function()
+    Wait(5000)
+    local PlayerServerID = GetPlayerServerId(PlayerId())
+    SendNUIMessage({
+        id = PlayerServerID or 0
+    })
 end)
-
-
-
